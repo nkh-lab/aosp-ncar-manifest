@@ -2,8 +2,8 @@
 <manifest>
 
     <remote name="nkh-lab"
-        fetch="https://github.com/nkh-lab" 
-        revision="refs/tags/master" />
+        fetch="https://github.com/nkh-lab"
+        revision="master" />
 
     <project path="device/nkh-lab/ncar" name="aosp-device-ncar" remote="nkh-lab" />
 
