@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <remote name="nkh-lab"
+        fetch="https://github.com/nkh-lab" 
+        revision="refs/tags/master" />
+
+    <project path="device/nkh-lab/ncar" name="aosp-device-ncar" remote="nkh-lab" />
+
+</manifest>

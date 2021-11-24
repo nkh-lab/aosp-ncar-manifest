@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <include name="android-11.0.0_r48.xml" />
+    <include name="external.xml" />
+    <include name="nkh-lab.xml" />
+  
+</manifest>
