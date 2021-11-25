@@ -3,4 +3,9 @@
 
     <include name="boost-1_72_0.xml" />
 
+    <remote name="covesa"
+        fetch="https://github.com/COVESA" />
+
+    <project path="external/covesa/vsomeip" name="vsomeip" remote="covesa" revision="refs/tags/3.1.20.3" />
+
 </manifest>
