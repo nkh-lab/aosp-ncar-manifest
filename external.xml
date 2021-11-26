@@ -7,5 +7,7 @@
         fetch="https://github.com/COVESA" />
 
     <project path="external/covesa/vsomeip" name="vsomeip" remote="covesa" revision="refs/tags/3.1.20.3" />
+    <project path="external/covesa/capicxx-core-runtime" name="capicxx-core-runtime" remote="covesa" revision="refs/tags/3.2.0" />
+    <project path="external/covesa/capicxx-someip-runtime" name="capicxx-someip-runtime" remote="covesa" revision="refs/tags/3.2.0" />
 
 </manifest>
