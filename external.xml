@@ -7,7 +7,8 @@
         fetch="https://github.com/COVESA" />
 
     <project path="external/covesa/vsomeip" name="vsomeip" remote="covesa" revision="refs/tags/3.1.20.3" />
-    <project path="external/covesa/capicxx-core-runtime" name="capicxx-core-runtime" remote="covesa" revision="refs/tags/3.2.0" />
-    <project path="external/covesa/capicxx-someip-runtime" name="capicxx-someip-runtime" remote="covesa" revision="refs/tags/3.2.0" />
-
+    <project path="external/covesa/capicxx-core-runtime" name="capicxx-core-runtime" remote="covesa" revision="refs/tags/3.2.0" />  
+    <!-- 3.2.0 + Android.bp patches -->
+    <project path="external/covesa/capicxx-someip-runtime" name="capicxx-someip-runtime" remote="covesa" revision="refs/tags/29cb5c81b67777d594a9ae83eb7d47874b147f7b" />
+    
 </manifest>
