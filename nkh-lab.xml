@@ -15,4 +15,6 @@
         <linkfile src="aosp/internal_cmp_rc.bp" dest="Android.bp" />
     </project>
 
+    <project path="vendor/nkh-lab/logger" name="logger" remote="nkh-lab" revision="refs/tags/1.1.0" />
+
 </manifest>
