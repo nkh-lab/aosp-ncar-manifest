@@ -5,7 +5,7 @@
         fetch="https://github.com/nkh-lab"
         revision="master" />
 
-    <project path="device/nkh-lab/ncar" name="aosp-device-ncar" remote="nkh-lab" />
+    <project path="device/nkh-lab/ncar" name="aosp-ncar-device" remote="nkh-lab" />
 
     <project path="vendor/nkh-lab/aosp-boost" name="aosp-boost" remote="nkh-lab" >
         <linkfile src="make/boost-1_72_0.bp" dest="external/boost/Android.bp" />
