@@ -11,7 +11,9 @@
         <linkfile src="make/boost-1_72_0.bp" dest="external/boost/Android.bp" />
     </project>
 
-    <project path="vendor/nkh-lab/hardware/interfaces/automotive/vehicle" name="aosp-ncar-vhal" remote="nkh-lab" />
+    <project path="vendor/nkh-lab/interfaces" name="aosp-ncar-interfaces" remote="nkh-lab" />
+    
+    <project path="vendor/nkh-lab/vehicle-hal" name="aosp-ncar-vehicle-hal" remote="nkh-lab" />
 
     <project path="vendor/nkh-lab/genivi-capi-someip-examples" name="genivi-capi-someip-examples" remote="nkh-lab" >
         <linkfile src="aosp/internal_cmp_rc.bp" dest="vendor/nkh-lab/genivi-capi-someip-examples/Android.bp" />
