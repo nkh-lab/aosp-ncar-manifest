@@ -24,11 +24,6 @@ $ mkdir ncar && cd ncar
 $ repo init -u git@github.com:nkh-lab/aosp-ncar-manifest.git
 $ repo sync -c -d
 ```
-## Vendor setup
-To switch the default Google VHAL implementation to the [vendor nkh-lab VHAL](https://github.com/nkh-lab/aosp-ncar-vehicle-hal):
-```
-$ ./switch-to-nlab-vhal.sh
-```
 
 ## Build
 ```
