@@ -10,15 +10,12 @@
     <project path="vendor/nkh-lab/aosp-boost" name="aosp-boost" remote="nkh-lab" >
         <linkfile src="make/boost-1_72_0.bp" dest="external/boost/Android.bp" />
     </project>
-
+    <project path="vendor/nkh-lab/car-api-hello-world" name="car-api-hello-world" remote="nkh-lab" />
     <project path="vendor/nkh-lab/interfaces" name="aosp-ncar-interfaces" remote="nkh-lab" />
-    
-    <project path="vendor/nkh-lab/vehicle-hal" name="aosp-ncar-vehicle-hal" remote="nkh-lab" />
-
     <project path="vendor/nkh-lab/genivi-capi-someip-examples" name="genivi-capi-someip-examples" remote="nkh-lab" >
         <linkfile src="aosp/internal_cmp_rc.bp" dest="vendor/nkh-lab/genivi-capi-someip-examples/Android.bp" />
     </project>
-
     <project path="vendor/nkh-lab/logger" name="logger" remote="nkh-lab" revision="refs/tags/1.1.0" />
+    <project path="vendor/nkh-lab/vehicle-hal" name="aosp-ncar-vehicle-hal" remote="nkh-lab" />
 
 </manifest>
