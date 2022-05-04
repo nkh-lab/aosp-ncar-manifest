@@ -13,7 +13,7 @@ The project is based on latest 11 AOSP release (`android-11.0.0_r48`) because la
 
 ### Tools and Example projects
 * [CommonAPI example project](https://github.com/nkh-lab/genivi-capi-someip-examples) - setups and tests communication between two native daemons
-* [Vendor nkh-lab VHAL project](https://github.com/nkh-lab/aosp-ncar-vehicle-hal) - implements VHAL and extends [vehicle/2.0/types.hal::VehicleProperty](https://cs.android.com/android/platform/superproject/+/master:hardware/interfaces/automotive/vehicle/2.0/types.hal;drc=0e6c4ce8731b3cead9966506b08eb69277926f08;l=153) with [custom vendor properties](https://github.com/nkh-lab/aosp-ncar-interfaces/blob/master/vehicle/1.0/types.hal) 
+* [Vendor nkh-lab VHAL project](https://github.com/nkh-lab/aosp-ncar-vehicle-hal) - implements VHAL and extends [vehicle/2.0/types.hal::VehicleProperty](https://cs.android.com/android/platform/superproject/+/master:hardware/interfaces/automotive/vehicle/2.0/types.hal;drc=0e6c4ce8731b3cead9966506b08eb69277926f08;l=153) with [custom vendor properties](https://github.com/nkh-lab/aosp-ncar-vehicle-hal/blob/master/1.0/types.hal) 
 * [Android Automotive CAR API usage example project](https://github.com/nkh-lab/car-api-hello-world)
 
 ## Requirements to host PC
