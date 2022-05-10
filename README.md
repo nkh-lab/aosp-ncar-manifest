@@ -25,6 +25,10 @@ $ mkdir ncar && cd ncar
 $ repo init -u https://github.com/nkh-lab/aosp-ncar-manifest.git
 $ repo sync -c -d
 ```
+Or, if you want to use a specific release of AOSP (check supported releases in the branch list), specify it via the branch name:
+```
+$ repo init -u https://github.com/nkh-lab/aosp-ncar-manifest.git -b android-11.0.0_r48
+```
 
 ## Build
 ```
