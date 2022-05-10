@@ -1,7 +1,7 @@
 
 # NCAR - Android Automotive Emulator Project
 
-The project is based on latest 11 AOSP release (`android-11.0.0_r48`) because latest 12 AOSP releases (up to r15) have problem with `aosp_car_x86` emulator startup.
+The project is based on the AOSP version, which is specified in the corresponding manifest filename `android-X.X.X_rX.xml`.
 
 ## Additionally supports
 ### Native libraries:
