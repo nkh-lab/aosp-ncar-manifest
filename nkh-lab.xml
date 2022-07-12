@@ -16,5 +16,7 @@
     </project>
     <project path="vendor/nkh-lab/logger" name="logger" remote="nkh-lab" revision="refs/tags/1.1.0" />
     <project path="vendor/nkh-lab/interfaces/automotive/vehicle" name="aosp-ncar-vehicle-hal" remote="nkh-lab" />
+    <project path="vendor/nkh-lab/tools/share-avd" name="aosp-share-avd" remote="nkh-lab" />
+    <project path="vendor/nkh-lab/tools/devicemk-parser" name="aosp-devicemk-parser" remote="nkh-lab" />
 
 </manifest>
