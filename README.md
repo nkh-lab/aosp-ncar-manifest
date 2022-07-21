@@ -1,9 +1,13 @@
 
-# NCAR - Android Automotive Emulator Project
+# NCAR - Android Automotive Project
 
 The project is based on the AOSP version, which is specified in the corresponding manifest filename `android-X.X.X_rX.xml`.
 
-## Additionally supports
+## Supported Devices
+* `ncar_x86` - emulator for x86 architecture 
+* `ncar_hikey960` - for [HiKey960 board](https://source.android.com/setup/build/devices#960userspace)
+
+## Additionally supported SW
 ### Third Party Native libraries:
 * [boost-1.72.0](https://github.com/boostorg/)
 * [vsomeip 3.1.20.3](https://github.com/COVESA/vsomeip)
@@ -22,7 +26,7 @@ The project is based on the AOSP version, which is specified in the correspondin
 ## Requirements to host PC
 [Link to HW and SW requirements from Google.](https://source.android.com/setup/build/requirements)
 
-## Setup and sync project
+## Download source tree
 ```
 $ mkdir ncar && cd ncar
 $ repo init -u https://github.com/nkh-lab/aosp-ncar-manifest.git
@@ -34,13 +38,28 @@ $ repo init -u https://github.com/nkh-lab/aosp-ncar-manifest.git -b android-11.0
 ```
 
 ## Build
+Setup the environment:
 ```
 $ . ./build/envsetup.sh
-$ lunch ncar_x86-userdebug
+```
+Choose which variant to build:
+```
+$ lunch
+...
+     64. ncar_hikey960-userdebug
+     65. ncar_x86-userdebug
+...     
+```
+And run:
+```
 $ make
 ```
 
 ## Run
+* `ncar_x86`:
 ```
 $ emulator
 ```
+* `ncar_hikey960`
+
+Follow [this instruction](https://source.android.com/setup/build/devices#960fastboot) of how to flash and run HiKey960 board.
