@@ -4,7 +4,7 @@
 The project is based on the AOSP version, which is specified in the corresponding manifest filename `android-X.X.X_rX.xml`.
 
 ## Supported Devices
-* `ncar_x86` - emulator for x86 architecture 
+* `ncar_x86` - emulator for x86 architecture
 * `ncar_hikey960` - for [HiKey960 board](https://source.android.com/setup/build/devices#960userspace)
 
 ## Additionally supported SW
@@ -48,7 +48,7 @@ $ lunch
 ...
      64. ncar_hikey960-userdebug
      65. ncar_x86-userdebug
-...     
+...
 ```
 And run:
 ```

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <include name="android-12.1.0_r5.xml" />
+    <include name="android-13.0.0_r83.xml" />
     <include name="external.xml" />
     <include name="nkh-lab.xml" />
-  
+
 </manifest>
