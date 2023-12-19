@@ -5,18 +5,18 @@
         fetch="https://github.com/nkh-lab"
         revision="master" />
 
-    <project path="device/nkh-lab/ncar" name="aosp-ncar-device" remote="nkh-lab" />
+    <project path="device/nkh-lab/ncar" name="aosp-ncar-device" remote="nkh-lab" revision="d344052734b59fb148a052afe92aa17686621ca5" />
 
-    <project path="vendor/nkh-lab/aosp-boost" name="aosp-boost" remote="nkh-lab" >
+    <project path="vendor/nkh-lab/aosp-boost" name="aosp-boost" remote="nkh-lab" revision="0acf74bbb8d25327d0e598309ffefb79043af2b2" >
         <linkfile src="make/boost-1_72_0.bp" dest="external/boost/Android.bp" />
     </project>
-    <project path="vendor/nkh-lab/car-api-hello-world" name="car-api-hello-world" remote="nkh-lab" />
-    <project path="vendor/nkh-lab/genivi-capi-someip-examples" name="genivi-capi-someip-examples" remote="nkh-lab" >
+    <project path="vendor/nkh-lab/car-api-hello-world" name="car-api-hello-world" remote="nkh-lab" revision="d06f6780ff0df1efadfce1a49ed2274b8268b7ac" />
+    <project path="vendor/nkh-lab/genivi-capi-someip-examples" name="genivi-capi-someip-examples" remote="nkh-lab" revision="38f769ed380fc38a3900314b70b5fe94bcf149c0" >
         <linkfile src="aosp/internal_cmp_rc.bp" dest="vendor/nkh-lab/genivi-capi-someip-examples/Android.bp" />
     </project>
     <project path="vendor/nkh-lab/logger" name="logger" remote="nkh-lab" revision="refs/tags/1.1.0" />
-    <project path="vendor/nkh-lab/interfaces/automotive/vehicle" name="aosp-ncar-vehicle-hal" remote="nkh-lab" />
-    <project path="vendor/nkh-lab/tools/share-avd" name="aosp-share-avd" remote="nkh-lab" />
-    <project path="vendor/nkh-lab/tools/devicemk-parser" name="aosp-devicemk-parser" remote="nkh-lab" />
+    <project path="vendor/nkh-lab/interfaces/automotive/vehicle" name="aosp-ncar-vehicle-hal" remote="nkh-lab" revision="0db0fe186765e1b39638715fedcb56db9ffc0136" />
+    <project path="vendor/nkh-lab/tools/share-avd" name="aosp-share-avd" remote="nkh-lab" revision="6f04c9aca70d74e0f335cd1aab0211b1ce00487c" />
+    <project path="vendor/nkh-lab/tools/devicemk-parser" name="aosp-devicemk-parser" remote="nkh-lab" revision="97cf89191489b7b2fcbb7baf3af91599ec539af2" />
 
 </manifest>
