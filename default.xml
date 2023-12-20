@@ -4,5 +4,5 @@
     <include name="android-12.1.0_r5.xml" />
     <include name="external.xml" />
     <include name="nkh-lab.xml" />
-  
+
 </manifest>
