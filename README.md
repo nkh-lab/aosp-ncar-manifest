@@ -69,3 +69,5 @@ device/linaro/hikey/device-common.mk:41: warning: EXPECTED_LINARO_VENDOR_VERSION
 adb reboot bootloader
 ./device/linaro/hikey/installer/hikey960/flash-all.sh
 ```
+___
+See also [Known Issues](./KnownIssues.md)
