@@ -64,6 +64,8 @@ device/linaro/hikey/device-common.mk:38: warning: https://releases.linaro.org/an
 device/linaro/hikey/device-common.mk:39: warning: And extract in the ANDROID_TOP_DIR
 device/linaro/hikey/device-common.mk:41: warning: EXPECTED_LINARO_VENDOR_VERSION=20220210
 ```
+So, download the archive, extract the script from it into the root of the project and run it.
+
 **Flash:**
 ```
 adb reboot bootloader
